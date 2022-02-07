@@ -1,8 +1,7 @@
 (function ($) {
     "use strict";
 
-    
-// nu inteleg jquerry!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!dar am trecut peste asta in video
+
     // Navbar on scrolling
     $(window).scroll(function () {
         if ($(this).scrollTop() > 200) {
@@ -13,7 +12,7 @@
     });
 
     
-// nu inteleg jquerry!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!dar am trecut peste asta in video
+
     // Smooth scrolling on the navbar links
     $(".navbar-nav a").on('click', function (event) {
         if (this.hash !== "") {
@@ -30,7 +29,7 @@
         }
     });
 
-// nu inteleg jquerry!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!dar am trecut peste asta in video
+
     // Typed Initiate
     if ($('.typed-text-output').length == 1) {
         var typed_strings = $('.typed-text').text();
@@ -46,7 +45,6 @@
 
 
 
-// nu inteleg jquerry!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!dar am trecut peste asta in video
     // Scroll to Bottom
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -56,7 +54,6 @@
         }
     });
 
-// nu inteleg jquerry!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!dar am trecut peste asta in video
     // Skills
     $('.skill').waypoint(function () {
         $('.progress .progress-bar').each(function () {
@@ -66,8 +63,6 @@
 
 
 
-    
-    // nu inteleg jquerry!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!dar am trecut peste asta in video
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 200) {
